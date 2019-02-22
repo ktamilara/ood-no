@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class oddnumbers
+class oddnu
 {
 public static void main(String args[])
 {
