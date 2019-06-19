@@ -1,12 +1,12 @@
 import string
-str1=input()
-str1=str1.lower()
-li1=list(string.ascii_lowercase[0:26])
-flag1=1
-for i in li1:
-  if i not in st1r:
-    flag1=0
-if flag1==0:
-  print("no")
+def abc(string):
+    s11="abcdefghijklmnopqrstuvwxyz"
+    for d11 in s11:
+        if d11 not in string.lower():
+            return False
+    return True
+string=input()
+if (abc(string)==True):
+    print("yes")
 else:
-  print("yes")
+    print("no")
