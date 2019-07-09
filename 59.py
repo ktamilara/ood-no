@@ -1,10 +1,10 @@
-num1,value1=map(str,input().split("|"))
-tat1=input()
-if  len(num1)>len(value1):
-    if len(num1)==len(value1)+len(tat1):
-        print(num1+"|"+value1+tat1)
-elif len(num1)<len(value11):
-     if len(value1)==len(num1)+len(tat1):
-        print(num1+tat1+"|"+value1)
-elif len(num1)==len(value1) and len(tat1)>1 or (len(value1) or len(num1)):
+b1,s1=map(str,input().split("|"))
+c1=input()
+if  len(b1)>len(s1):
+    if len(b1)==len(s1)+len(c1):
+        print(b1+"|"+s1+c1)
+elif len(b1)<len(s1):
+     if len(s1)==len(b1)+len(c1):
+        print(b1+c1+"|"+s1)
+elif len(b1)==len(s1) and len(c)>1 or (len(s1) or len(b1)):
     print("impossible")
