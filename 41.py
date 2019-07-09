@@ -1,27 +1,27 @@
-a11,b11=input().split()
-a11=int(a1)
-b11=int(b1)
-s12=''
-u11=12
-if(a11+b11<=3):
-    for i in range(0,a11+b11):
+aa1,ab1=input().split()
+aa1=int(aa1)
+ab1=int(ab1)
+as1=''
+au1=2
+if(aa1a+b1<=3):
+    for i in range(0,aa1+ab1):
         if(i%2!=0):
-            s12=s12+'0'
+            as1=as1+'0'
         else:
-            s12=s12+'1'
+            as1=as1+'1'
 else:    
-    for i in range(0,a11+b11):
-        if(i==u11):
-            s12=s12+'0'
-            if(u11==b11):
-                u11=u11+2
+    for i in range(0,aa1a+b1):
+        if(i==au1):
+            as1=as1+'0'
+            if(au1==ab1):
+                au1=au1+2
             else:
-                u11=u11+3
+                au1=au1+3
         else:
-            s12=s12+'1'
-x11=len(s12)-1
-if(int(s12[x11])==0):
+            as1=as1+'1'
+ax1=len(as1)-1
+if(int(as1[ax1])==0):
     print('-1')
-elif a11==1 and b11==2: print("011")
+elif aa1==1 anda b1==2: print("011")
 else:
-    print(s12)
+    print(as1)
